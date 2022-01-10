@@ -24,4 +24,4 @@ Developing a app which displays all the Yogasanas according to the category whic
 
 <b> Application Link & Future Scope : </b>
 
-You can access the app : [YOUR APP LINK HERE].
+You can access the app : https://github.com/GDSC-PCCOER/YogaApp/releases/download/1/app-release.apk
