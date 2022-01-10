@@ -3,11 +3,10 @@
 Yoga App
 
 <b> Problem Statement: </b>
-
-
+How might we improve the daily yoga app for users so that they can know more about the different Yogasanas and how to efficiently achieve their fitness goal.
 
 <b> Proposed Solution : </b>
-
+Developing a app which displays all the Yogasanas according to the category which will help them to choose the right Yogasanas to practice for themselves.
 
 | | | | |
 |:----:|:----:|:----:|:----:|
@@ -16,10 +15,12 @@ Yoga App
     	  	
 <b> Functionality & Concepts used : </b>
 
-- Constraint Layout :
-- Simple & Easy Views Design : 
-- RecyclerView : 
-- LiveData & Room Database : 
+- Constraint Layout : Most of the fragments in the app uses a flexible constraint layout, which is easy to handle for different screen sizes.
+- Simple & Easy Views Design : Simple Card Views used to enable easy understanding of th UI.
+- RecyclerView : To present the list of different categories and poses we used the efficient recyclerview.
+- Retrofit : We used retrofit library for easy network calls to the Yoga API and for fetching data.
+- Room Database : We used ROOM Database for caching of data received from the network for cases where network is not available so that we can display the Yogasanas even when the user is not connected to the Internet.
+- LiveData : We used LiveData to inform the UI and Views that data is changed and is available to be displayed.
 
 <b> Application Link & Future Scope : </b>
 
