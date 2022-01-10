@@ -21,6 +21,7 @@ Developing a app which displays all the Yogasanas according to the category whic
 - Retrofit : We used retrofit library for easy network calls to the Yoga API and for fetching data.
 - Room Database : We used ROOM Database for caching of data received from the network for cases where network is not available so that we can display the Yogasanas even when the user is not connected to the Internet.
 - LiveData : We used LiveData to inform the UI and Views that data is changed and is available to be displayed.
+- Coil : We used the Coil Image Loading library to display the SVG of the Yogasanas.
 
 <b> Application Link & Future Scope : </b>
 
